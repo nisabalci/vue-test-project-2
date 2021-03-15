@@ -53,14 +53,13 @@
         <br>
         <span>Selected: {{ multipleSelected }}</span>
         <br><br><br>
-        <select v-model="selected">
+        <select v-model="selectedValue">
             <option v-for="option in options" v-bind:value="option.value">
                 {{ option.text }}
             </option>
         </select>
-        <span>Selected: {{ selected }}</span>
+        <span>Selected: {{ selectedValue }}</span>
     </div>
-
 
     <script src="app.js"></script>
 </body>

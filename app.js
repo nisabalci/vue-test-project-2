@@ -7,7 +7,7 @@ new Vue({
 		picked: "",
 		selected1: "",
 		multipleSelected: [],
-		selected: "A",
+		selectedValue: "A",
 		options: [
 			{ text: "One", value: "A" },
 			{ text: "Two", value: "B" },
